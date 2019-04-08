@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:700|Ubuntu|Vollkorn');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+#more {display: none;}
+
+.navbar {
+    background:transparent;
+    font-size: 1.2em;
+    border: none!important;
+    padding: 1% 0;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color:#f77284!important;
+    transition: background-color 200ms linear;
+  }
+
+p, span{
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a{
+    color: #000000;
+
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active  {
+    color: #FFF;
+}
+
+/* backgroudnnya*/
+
+#home{
+    background: url(img/bg2.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#latardidalam{
+    height: 100%;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 0 10% 0 10%;
+}
+.landing-text {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 5%; 
+    color: #000000;
+    font-family: 'Vollkorn', serif;
+}
+.landing-text h1 {
+    font-size: 300%;
+    font-weight:  700;
+    color: #ff1536;
+    padding-top:0;
+   
+}
+
+.landing-text h3 {
+    font-size: 150%;
+    font-weight:  600;
+    padding: none;
+   
+}
+.landing-text p {
+   font-size: 20px;
+}
+
+.title-page{
+    font-size: 0.8em;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5% 0 5% 0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.padding {
+    padding: 80px 0;
+}
+.padding img {
+    width: 100%;
+}
+
+.jarak {
+    padding-bottom: 3%;
+}
+
+.jarakatas {
+    padding-top: 3%;
+}
+
+/*background bening*/
+#fixed {
+    background-color: #ffc7d2;
+    display: table;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 10%; 
+}
+
+#latar3 {
+    background-color: #ffc7d2;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 10%; 
+}
+
+#latar-beda {
+    background: url(img/bg4.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.container{
+    padding-bottom: 10%; 
+}
+
+footer {
+    width: 100%;
+    background-color: #ffc7d2;
+    padding: 5% 5% 10% 5%;
+    color: #FFF;
+}
+
+@media (max-width: 768px) {
+    .landing-text{
+        font-size: 3vw;
+    }
+    .landing-text h1 {
+        font-size: 300%;
+    }
+   
+}
+
+.ikon-cam{
+    background-image: url(img/cam.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 10%;
+    font-size: 210%;
+}
+
+.ikon-paint{
+    background-image: url(img/paint.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 10%; 
+    font-size: 210%;
+}
+
+.ikon-web{
+    background-image: url(img/web.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 10%; 
+    font-size: 210%;
+}
+
+.ikon-mobile{
+    background-image: url(img/mobile.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 10%; 
+    font-size: 210%;
+}
+
+.ikon-software{
+    background-image: url(img/software.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 10%; 
+    font-size: 210%;
+
+}
+
+.ikon-design{
+    background-image: url(img/design.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 10%; 
+    font-size: 210%;
+
+}
+
+.ikon-email{
+    background-image: url(img/email.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 10%; 
+    width:100%!important;
+    height:100%!important;
+}
+.ikon-tel{
+    background-image: url(img/tel.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 10%; 
+    width:100%!important;
+    height:100%!important;
+}
+
+.ikon-write{
+    background-image: url(img/write.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 8%; 
+    width:100%!important;
+    height:100%!important;
+}
+
+.ikon-loc{
+    background-image: url(img/loc.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 10%; 
+}
+
+.ikon-user{
+    background-image: url(img/user.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 8%; 
+    width:100%!important;
+    height:100%!important;
+}
+.img-responsive {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+.project{
+    padding-top: 10%;
+}
+.judul{
+    font-size: 1.5em;
+    font-family: 'Vollkorn', serif;
+}
+
+.tulisan{
+    color: white;
+}
+
+textarea {
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    height: 55%;
+}
+
+.kanan{
+    float: right;
+}
+
+.transparan{
+    background:transparent;
+    border-color: #FFF;
+    color: #000000;
+
+}
+
+.hitam{
+    background: #ff1536;
+    color: #FFF;
+
+}
+
+.latar {
+    background-color: rgb(255, 0, 0);opacity:0.8;
+}
+
+.teks {
+    font-family: 'Montserrat', sans-serif;
+}
