@@ -16,7 +16,7 @@ html, body {
 }
 
 .navbar-fixed-top.scrolled {
-    background-color:#f77284!important;
+    background: #FFF;
     transition: background-color 200ms linear;
   }
 
@@ -42,10 +42,12 @@ h4 {
     color: #FFF;
 }
 
+.center {
+    margin: auto; }
 /* backgroudnnya*/
 
 #home{
-    background: url(img/bg2.jpg) no-repeat center center fixed;
+  background: linear-gradient(110deg, transparent 60%, #D5E5FF 60%);
     display: table;
     height: 100%;
     position: relative;
@@ -71,11 +73,13 @@ h4 {
 .landing-text h1 {
     font-size: 300%;
     font-weight:  700;
-    color: #ff1536;
     padding-top:0;
    
 }
 
+.blue {
+    color:#337ab7;
+}
 .landing-text h3 {
     font-size: 150%;
     font-weight:  600;
@@ -119,8 +123,8 @@ h4 {
     padding-bottom: 10%; 
 }
 
-#latar3 {
-    background-color: #ffc7d2;
+.latar3 {
+    background-color: #D5E5FF;
     display: table;
     height: 60%;
     position: relative;
@@ -144,10 +148,9 @@ h4 {
 
 footer {
     width: 100%;
-    background-color: #ffc7d2;
-    padding: 5% 5% 10% 5%;
-    color: #FFF;
+    background-color: #D5E5FF;
 }
+
 
 @media (max-width: 768px) {
     .landing-text{
@@ -303,3 +306,14 @@ input{
 .teks {
     font-family: 'Montserrat', sans-serif;
 }
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  padding-left:80px;
+  width: auto;
+}
+
